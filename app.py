@@ -195,7 +195,7 @@ def findpeople():
         return jsonify({"error": str(e)}), 500    
 
 
-# Get people by various criteria
+# Get people by criteria
 @app.route('/getpeople', methods=['GET'])  
 # /getpeople?nama=John   
 # /getpeople?kota=Jakarta
